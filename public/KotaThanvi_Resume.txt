@@ -1,0 +1,147 @@
+================================================================================
+                           KOTA THANVI
+                    Full-Stack Developer | Hyderabad, India
+================================================================================
+
+CONTACT INFORMATION
+Email: kotathanvi3@gmail.com
+Phone: +91 7207 363 888
+LinkedIn: linkedin.com/in/kota-thanvi
+GitHub: github.com/Thanvi23
+Portfolio: [Your Portfolio URL]
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Full-Stack Developer with 14+ months of professional experience building 
+scalable, high-performance web applications. Specialized in React, Node.js, 
+Spring Boot, and microservices architecture. Proven expertise in payment 
+gateway integration (Razorpay), delivery partner API integration (Shiprocket), 
+and database optimization. Published researcher in NLP and machine learning.
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+FRONTEND:
+  • React 18+ | TypeScript | Tailwind CSS | HTML5 | CSS3
+  • Responsive Design | UI/UX Implementation | State Management (Redux/Context)
+
+BACKEND:
+  • Node.js | Express.js | Spring Boot | Java | Python
+  • REST API Design | Microservices Architecture | Authentication & Authorization
+
+DATABASES:
+  • PostgreSQL | MongoDB | MySQL | Redis | Apache Kafka
+
+REAL-TIME & MESSAGING:
+  • WebSockets | Apache Kafka | GraphQL | Real-time Systems
+
+TOOLS & CLOUD:
+  • Docker | Git | GitHub | Vite | Webpack | Linux
+  • Postman | VS Code | IntelliJ IDEA
+
+PAYMENT & INTEGRATION:
+  • Razorpay Payment Gateway | Shiprocket Delivery API
+  • RESTful API Integration | Third-party Service Integration
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+JAVA DEVELOPER
+Vijay Software Solutions, Hyderabad, India
+August 2025 - March 2026 (8 months)
+
+  • Developed full-stack features for enterprise applications using Java, Spring Boot, 
+    and React
+  • Designed and optimized database queries reducing response time by 35%
+  • Implemented role-based access control and JWT authentication
+  • Integrated third-party APIs for payment processing and delivery management
+  • Collaborated with cross-functional teams using Agile methodology
+
+ASSOCIATE SOFTWARE ENGINEER INTERN
+Anasol Consultancy, Hyderabad, India
+February 2025 - July 2025 (6 months)
+
+  • Developed responsive web applications using React and Tailwind CSS
+  • Built RESTful APIs using Node.js and Express.js
+  • Implemented real-time features using WebSockets
+  • Participated in code reviews and improved code quality standards
+
+================================================================================
+KEY PROJECTS
+================================================================================
+
+SOLID BRAND (solidfashion.in)
+Full-Stack E-Commerce Platform | React • Node.js • MongoDB • Razorpay • Shiprocket
+• Production-ready platform with JWT authentication and role-based access
+• Integrated Razorpay payment gateway for secure transactions
+• Implemented Shiprocket API for real-time delivery partner integration
+• Built inventory management system with real-time order tracking
+• Deployed on production with 99.9% uptime
+
+TUTORGO
+Location-Based Tutor Discovery Platform | React • Spring Boot • PostgreSQL
+• Developed geolocation-based search and filtering system
+• Implemented subscription plans with Razorpay payment integration
+• Backend API with Spring Boot following MVC architecture
+• Database optimization for 10,000+ user queries
+
+MANVI VASTRA
+Online Saree Shopping Platform | React • Node.js • Express.js • MongoDB
+• Complete e-commerce platform with product catalog management
+• Shopping cart functionality with persistent storage
+• Order processing system with email notifications
+
+FAKE JOB CLASSIFICATION
+BiLSTM NLP Model for Fraud Detection | Python • BiLSTM • FastAPI
+• Research paper published in IJMECE 2025
+• Built deep learning model achieving 94% accuracy
+• Created REST API using FastAPI for real-time predictions
+• Publication: "Fake Job Postings Classification using BiLSTM NLP"
+
+================================================================================
+EDUCATION
+================================================================================
+
+B.TECH IN INFORMATION TECHNOLOGY
+Bhoj Reddy Engineering College for Women, Hyderabad, India
+CGPA: 7.1/10
+
+INTERMEDIATE (12th Standard)
+Sri Chaitanya Junior College, Hyderabad, India
+
+SSC (10th Standard)
+Completed with 9.5 GPA
+
+================================================================================
+ACHIEVEMENTS & AWARDS
+================================================================================
+
+✓ Runner-Up: COWE Fempreneur Season 3 - Business Idea Competition
+✓ Runner-Up: COWE Fempreneur Season 4 - Business Idea Competition
+✓ Published Paper in IJMECE 2025: "Fake Job Postings Classification using BiLSTM"
+✓ Built and Deployed Production E-Commerce Platform (solidfashion.in)
+✓ Successfully Integrated Multiple Payment & Delivery APIs
+
+================================================================================
+CERTIFICATIONS & LEARNING
+================================================================================
+
+• Full-Stack Web Development (In Progress)
+• RESTful API Design & Development
+• Microservices Architecture
+• Real-Time Systems Development
+• Database Optimization & Design
+
+================================================================================
+LANGUAGES
+================================================================================
+
+• English - Fluent
+• Telugu - Native
+• Hindi - Basic
+
+================================================================================
