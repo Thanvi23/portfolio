@@ -14,12 +14,12 @@ function useInView(threshold = 0.1) {
 }
 
 const skills = [
-  { category: 'Frontend', proficiency: 52, technologies: ['React', 'JavaScript', 'Tailwind CSS', 'HTML/CSS'], color: '#06b6d4', icon: '⚡' },
-  { category: 'Backend', proficiency: 80, technologies: ['Node.js', 'Express', 'Spring Boot', 'REST APIs'], color: '#3b82f6', icon: '🔧' },
-  { category: 'Databases', proficiency: 78, technologies: ['PostgreSQL', 'MongoDB', 'MySQL'], color: '#8b5cf6', icon: '🗄️' },
-  { category: 'Real-Time & Messaging', proficiency: 75, technologies: ['WebSockets', 'Apache Kafka', 'Redis'], color: '#10b981', icon: '📡' },
-  { category: 'Tools & Cloud', proficiency: 72, technologies: ['Git', 'Postman', 'GCP', 'AWS'], color: '#f59e0b', icon: '🛠️' },
-  { category: 'Languages', proficiency: 82, technologies: ['JavaScript', 'Java', 'Python', 'SQL'], color: '#ec4899', icon: '💻' },
+  { category: 'Containerization', proficiency: 85, technologies: ['Docker', 'Kubernetes', 'Container Registry'], color: '#06b6d4', icon: '📦' },
+  { category: 'CI/CD & Automation', proficiency: 80, technologies: ['Jenkins', 'GitHub Actions', 'Cloud Build'], color: '#3b82f6', icon: '🚀' },
+  { category: 'Cloud Platforms', proficiency: 78, technologies: ['GCP', 'AWS', 'Azure', 'Firebase'], color: '#8b5cf6', icon: '☁️' },
+  { category: 'IaC & Config Mgmt', proficiency: 75, technologies: ['Terraform', 'Ansible', 'CloudFormation'], color: '#10b981', icon: '⚙️' },
+  { category: 'Monitoring & Logging', proficiency: 72, technologies: ['Prometheus', 'Grafana', 'Cloud Logging'], color: '#f59e0b', icon: '📊' },
+  { category: 'Languages & Tools', proficiency: 82, technologies: ['Bash', 'Python', 'Git', 'Linux'], color: '#ec4899', icon: '💻' },
 ]
 
 function SkillBar({ skill, animate, isDark }) {
@@ -158,7 +158,7 @@ export default function Skills() {
           }}>
             Expertise
           </h2>
-          <p className="text-lg max-w-xl mx-auto" style={{ color: isDark ? '#94a3b8' : '#3a3a3a' }}>Full-stack development expertise across frontend, backend, databases, and modern DevOps tools</p>
+          <p className="text-lg max-w-xl mx-auto" style={{ color: isDark ? '#94a3b8' : '#3a3a3a' }}>DevOps expertise spanning containerization, CI/CD automation, cloud infrastructure, and infrastructure as code</p>
         </div>
 
         <div className={`grid md:grid-cols-2 lg:grid-cols-3 gap-5 transition-all duration-700 delay-100 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>

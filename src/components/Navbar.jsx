@@ -59,7 +59,7 @@ export default function Navbar() {
                 WebkitTextFillColor: 'transparent', 
                 backgroundClip: 'text' 
               }}>
-              TK
+              ES
             </span>
             <div className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300"
               style={{ 

@@ -20,15 +20,15 @@ export default function About() {
 
   const stats = [
     { icon: Briefcase, label: 'Experience', value: '11', suffix: 'Months', color: '#06b6d4', bg: 'rgba(6,182,212,0.1)' },
-    { icon: Code, label: 'Projects', value: '4', suffix: 'Major Works', color: '#8b5cf6', bg: 'rgba(139,92,246,0.1)' },
-    { icon: Target, label: 'Technologies', value: '5+', suffix: 'Tech Stack', color: '#10b981', bg: 'rgba(16,185,129,0.1)' },
-    { icon: Award, label: 'Awards', value: '2', suffix: 'Runner-ups', color: '#f59e0b', bg: 'rgba(245,158,11,0.1)' },
+    { icon: Code, label: 'Projects', value: '3', suffix: 'DevOps Works', color: '#8b5cf6', bg: 'rgba(139,92,246,0.1)' },
+    { icon: Target, label: 'Technologies', value: '10+', suffix: 'Tech Stack', color: '#10b981', bg: 'rgba(16,185,129,0.1)' },
+    { icon: Award, label: 'Certs', value: '1', suffix: 'In Cloud', color: '#f59e0b', bg: 'rgba(245,158,11,0.1)' },
   ]
 
   const achievements = [
-    'Runner-Up at COWE Fempreneur Season 3 & Season 4 - Business Idea Competitions',
-    'Published research in IJMECE 2025 on Fake Job Classification using BiLSTM NLP',
-    'Built deployed e-commerce platform (solidfashion.in) with payment & delivery integration',
+    'Deployed production e-commerce platform (Solid Fashion) with Firebase and GCP',
+    'Designed and implemented CI/CD pipelines using Cloud Build and GitHub Actions',
+    'Managed Kubernetes orchestration and containerized deployments with Docker',
   ]
 
   return (
@@ -61,13 +61,13 @@ export default function About() {
           <div className={`space-y-8 transition-all duration-700 delay-100 ${inView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
             <div className="space-y-5">
               <p className="text-slate-300 text-lg leading-relaxed">
-                I'm a passionate <span className="text-cyan-400 font-bold">Full-Stack Developer</span> with 11 months of professional experience building scalable web applications. Currently pursuing B.Tech in Information Technology at Bhoj Reddy Engineering College for Women, Hyderabad (CGPA: 7.1).
+                I'm a passionate <span className="text-cyan-400 font-bold">DevOps Engineer</span> with 11 months of professional experience automating infrastructure and deployment workflows. I hold a Bachelor's degree in Computer Science (Business Systems) at U.V. Patel College of Engineering, Vijayawada (CGPA: 6.09).
               </p>
               <p className="text-slate-300 text-lg leading-relaxed">
-                My expertise spans the entire development stack — from architecting robust <span className="text-blue-400 font-bold">REST APIs</span> using Node.js, Express.js, and Spring Boot, to crafting responsive user interfaces with React and Tailwind CSS. I excel in database design with PostgreSQL, MySQL, and MongoDB, and build real-time systems using WebSockets, Apache Kafka, and Redis.
+                My expertise spans infrastructure automation — from containerization with <span className="text-blue-400 font-bold">Docker</span>, orchestration with <span className="text-blue-400 font-bold">Kubernetes</span>, to building robust <span className="text-purple-400 font-bold">CI/CD pipelines</span> using Jenkins, GitHub Actions, and Cloud Build. I excel in cloud platform deployment (GCP, AWS, Azure), infrastructure as code with Terraform, and configuration management with Ansible.
               </p>
               <p className="text-slate-300 text-lg leading-relaxed">
-                What truly excites me is solving complex problems at scale. I'm passionate about building <span className="text-purple-400 font-bold">microservices architecture</span>, <span className="text-purple-400 font-bold">real-time systems</span>, and scalable applications. I've successfully deployed production applications including Solid Brand (solidfashion.in) with integrated payment gateways and delivery partner systems.
+                What excites me is solving infrastructure challenges at scale. I'm passionate about <span className="text-purple-400 font-bold">deployment automation</span>, <span className="text-purple-400 font-bold">reliability engineering</span>, and building <span className="text-purple-400 font-bold">scalable systems</span>. I've successfully deployed production applications including Exam Portal and ChatRobo on GCP with secure backend-to-database connectivity and comprehensive monitoring.
               </p>
             </div>
 

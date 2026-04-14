@@ -16,51 +16,51 @@ function useInView(threshold = 0.1) {
 const projects = [
   {
     id: 1,
-    title: 'Solid Brand',
-    category: 'E-Commerce',
-    description: 'Production-ready e-commerce platform featuring JWT authentication, role-based access, Razorpay payment integration, Shiprocket delivery partner API, real-time order tracking, email OTP login, inventory management, and responsive design. Demonstrates expertise in building complete end-to-end e-commerce solutions.',
-    tags: ['React', 'Node.js', 'MongoDB', 'JWT', 'Razorpay', 'Shiprocket API', 'Real-time Tracking'],
+    title: 'Exam Portal Deployment (GCP)',
+    category: 'Cloud Deployment',
+    description: 'Production DevOps project deploying React frontend on Firebase Hosting and Node.js backend on GCP Cloud Run. Implemented automated CI/CD pipelines using Cloud Build with PostgreSQL Cloud SQL integration and comprehensive monitoring.',
+    tags: ['Docker', 'GCP', 'Firebase', 'Cloud Build', 'PostgreSQL', 'Cloud SQL', 'Cloud Logging'],
     status: 'LIVE',
     accent: '#06b6d4',
     gradient: 'from-cyan-500/20 to-blue-500/20',
+    link: 'https://github.com/eswarsanthosh',
+    image: 'https://images.unsplash.com/photo-1667372335033-c42a0472a9a9?w=600&h=400&fit=crop',
+  },
+  {
+    id: 2,
+    title: 'ChatRobo CI/CD Pipeline',
+    category: 'CI/CD & Automation',
+    description: 'Designed and implemented complete CI/CD pipeline using GitHub, Cloud Build, and Cloud Run. Deployed Docker containers via Artifact Registry with Firebase Hosting frontend and environment variable management for production.',
+    tags: ['GitHub', 'Cloud Build', 'Docker', 'Cloud Run', 'Firebase', 'Artifact Registry'],
+    status: 'LIVE',
+    accent: '#8b5cf6',
+    gradient: 'from-purple-500/20 to-pink-500/20',
+    link: 'https://github.com/eswarsanthosh',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop',
+  },
+  {
+    id: 3,
+    title: 'Solid Fashion E-Commerce Deployment',
+    category: 'Cloud Deployment',
+    description: 'Deployed production e-commerce application on Firebase Hosting with custom domain and HTTPS. Configured SPA routing, handled version control integration, implemented payment gateway debugging, and managed DNS/domain mapping.',
+    tags: ['Firebase', 'React', 'Node.js', 'Razorpay', 'DNS', 'HTTPS'],
+    status: 'LIVE',
+    accent: '#10b981',
+    gradient: 'from-emerald-500/20 to-teal-500/20',
     link: 'https://solidfashion.in',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab655c34b?w=600&h=400&fit=crop',
   },
   {
-    id: 2,
-    title: 'TutorGo',
-    category: 'Marketplace',
-    description: 'Location-based tutor discovery platform with geolocation search, tutor filtering, subscription plans, and secure Razorpay payment integration',
-    tags: ['React', 'Spring Boot', 'PostgreSQL', 'Razorpay'],
-    status: 'LIVE',
-    accent: '#8b5cf6',
-    gradient: 'from-purple-500/20 to-pink-500/20',
-    link: 'https://github.com/Thanvi23',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
-  },
-  {
-    id: 3,
-    title: 'Manvi Vastra',
-    category: 'E-Commerce',
-    description: 'Online saree shopping platform with product catalog management, cart functionality, and seamless order processing',
-    tags: ['React', 'Node.js', 'Express.js', 'MongoDB'],
-    status: 'LIVE',
-    accent: '#10b981',
-    gradient: 'from-emerald-500/20 to-teal-500/20',
-    link: 'https://github.com/Thanvi23',
-    image: 'https://images.unsplash.com/photo-1590350716985-d6e839d21940?w=600&h=400&fit=crop',
-  },
-  {
     id: 4,
-    title: 'Fake Job Classification',
-    category: 'AI/ML',
-    description: 'BiLSTM NLP model for detecting fraudulent job postings. Published in IJMECE 2025. Integrated with FastAPI for REST predictions.',
-    tags: ['Python', 'BiLSTM', 'FastAPI', 'NLP'],
-    status: 'PUBLISHED',
+    title: 'Infrastructure as Code (IaC)',
+    category: 'Infrastructure',
+    description: 'Infrastructure automation project using Terraform for resource provisioning. Managed cloud infrastructure configuration, automated deployment workflows, and infrastructure monitoring setup with Prometheus and Grafana.',
+    tags: ['Terraform', 'Kubernetes', 'Ansible', 'Prometheus', 'Grafana', 'Infrastructure Automation'],
+    status: 'ACTIVE',
     accent: '#f59e0b',
     gradient: 'from-amber-500/20 to-orange-500/20',
-    link: 'https://www.ijmece.com/ijmeceadmin/upload/ijlbps_68448b41af6a6.pdf',
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop',
+    link: 'https://github.com/eswarsanthosh',
+    image: 'https://images.unsplash.com/photo-1518611505868-d7b60fc8b93b?w=600&h=400&fit=crop',
   },
 ]
 
@@ -69,7 +69,7 @@ export default function Projects() {
   const isDark = theme === 'dark'
   const [active, setActive] = useState('All')
   const { ref, inView } = useInView(0.05)
-  const categories = ['All', 'E-Commerce', 'Marketplace', 'AI/ML']
+  const categories = ['All', 'Cloud Deployment', 'CI/CD & Automation', 'Infrastructure']
   const filtered = active === 'All' ? projects : projects.filter(p => p.category === active)
 
   const accentPurple = isDark ? '#8b5cf6' : '#7c3aed'
@@ -108,7 +108,7 @@ export default function Projects() {
           }}>
             Portfolio
           </h2>
-          <p className="text-lg max-w-xl mx-auto" style={{ color: textSecondary }}>Carefully crafted projects showcasing expertise in full-stack development and modern web technologies</p>
+          <p className="text-lg max-w-xl mx-auto" style={{ color: textSecondary }}>Carefully crafted DevOps projects showcasing expertise in cloud deployment, CI/CD automation, and infrastructure management</p>
         </div>
 
         {/* Filters */}

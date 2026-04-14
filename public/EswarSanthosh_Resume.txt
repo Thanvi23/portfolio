@@ -1,0 +1,94 @@
+ESWAR SANTHOSH BUDUMURU
+
+Contact Information:
+Phone: +91 9059115667
+Email: eswarsanthoshb@gmail.com
+LinkedIn: linkedin.com/in/eswar-santhosh
+Location: Vijayawada, Andhra Pradesh
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with hands-on experience in Linux, Git, Docker, Jenkins, CI/CD pipelines, and cloud platforms (GCP and AWS). Skilled in deployment automation, build optimization, and reliable application delivery. Passionate about infrastructure automation, monitoring, and scalable systems.
+
+TECHNICAL SKILLS
+Operating Systems: Linux, Windows
+Version Control: Git, GitHub, BitBucket
+CI/CD: Jenkins, GitHub Actions (Basics)
+Containerization: Docker
+Orchestration: Kubernetes
+IaC: Terraform
+Config Management: Ansible (Basics)
+Web Servers: Nginx, Apache
+Scripting: Bash, Python (Basics)
+Monitoring: Prometheus, Grafana
+Code Quality: SonarQube
+Cloud: GCP, AWS, AZURE, Firebase
+
+PROFESSIONAL EXPERIENCE
+
+DevOps Engineer
+Vijay Software Solutions, Hyderabad
+Sep 2025 – Present
+
+DevOps Project: Exam Portal (React + Node.js + GCP)
+• Deployed React frontend on Firebase Hosting using production builds
+• Containerized Node.js backend using Docker and deployed on GCP
+• Built CI/CD pipelines using Cloud Build (cloudbuild.yaml)
+• Managed PostgreSQL using GCP Cloud SQL
+• Configured secure backend-to-database connectivity
+• Managed IAM roles for secure access
+• Monitored services using Cloud Logging and Monitoring
+
+DevOps Project: ChatRobo (GCP + Firebase CI/CD)
+• Designed CI/CD pipelines using GitHub, Cloud Build, and Cloud Run
+• Deployed Docker containers via Artifact Registry
+• Configured Firebase Hosting for frontend deployment
+• Used environment variables for production configs
+• Debugged production issues using Cloud Run logs
+
+WORK EXPERIENCE
+
+Team Lead – Lead Generation
+SprintM Technologies Pvt Ltd, Hyderabad
+Jun 2025 – Sep 2025
+• Managed lead generation campaigns via social media and email
+• Converted leads into sales and improved team performance
+• Coordinated with marketing and sales teams
+
+Business Development Associate (Intern)
+Teachnook Edu Tech Pvt Ltd, Bengaluru
+Jan 2025 – May 2025
+• Worked on lead generation, CRM, and market research
+• Improved outreach and sales funnel strategies
+
+PROJECTS
+
+Solid Fashion E-Commerce Deployment (Production Project)
+Tech Stack: Firebase, React, Node.js, Razorpay, GCP
+• Deployed e-commerce app on Firebase Hosting with custom domain and HTTPS
+• Fixed deployment issues using firebase.json configuration
+• Implemented SPA routing using Firebase rewrites
+• Integrated GitHub and handled version control fixes
+• Debugged authentication and Razorpay payment issues
+• Configured DNS and domain mapping
+• Worked on real-time production debugging
+
+EDUCATION
+
+B.Tech – Computer Science (Business Systems)
+U.V. Patel College of Engineering
+2021 – 2025
+CGPA: 6.09
+
+Intermediate (MPC)
+Sri Gayathri Junior College
+2019 – 2021
+Percentage: 66.6%
+
+Schooling
+Mother Theresa English Medium High School
+CGPA: 8.8
+
+ADDITIONAL INFORMATION
+Languages: English, Telugu, Hindi
+Achievement: Silver Medal – Karate Championship (2017)
+Extra-Curricular: Campus Ambassador at Acadamor

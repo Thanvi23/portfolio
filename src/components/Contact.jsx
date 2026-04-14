@@ -32,9 +32,9 @@ export default function Contact() {
   }
 
   const contactItems = [
-    { icon: Mail, label: 'Email', value: 'kotathanvi3@gmail.com', href: 'mailto:kotathanvi3@gmail.com', color: '#06b6d4' },
-    { icon: MapPin, label: 'Location', value: 'Hyderabad, India', href: null, color: '#3b82f6' },
-    { icon: Phone, label: 'Phone', value: '+91 7207 363 888', href: 'tel:+917207363888', color: '#8b5cf6' },
+    { icon: Mail, label: 'Email', value: 'eswarsanthoshb@gmail.com', href: 'mailto:eswarsanthoshb@gmail.com', color: '#06b6d4' },
+    { icon: MapPin, label: 'Location', value: 'Vijayawada, Andhra Pradesh', href: null, color: '#3b82f6' },
+    { icon: Phone, label: 'Phone', value: '+91 9059115667', href: 'tel:+919059115667', color: '#8b5cf6' },
   ]
 
   const inputClass = "w-full px-4 py-3.5 rounded-xl text-slate-100 placeholder-slate-600 text-sm outline-none transition-all duration-300 focus:ring-1"

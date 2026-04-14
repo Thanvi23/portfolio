@@ -197,17 +197,19 @@ export default function Hero() {
   const [show, setShow] = useState(false);
   useEffect(() => { const t = setTimeout(() => setShow(true), 80); return () => clearTimeout(t); }, []);
 
-  const roles = ['Full-Stack Developer', 'React & Node.js Developer'];
+  const roles = ['DevOps Engineer', 'Cloud Infrastructure Specialist', 'CI/CD Pipeline Expert'];
 
   const techStack = [
-    { name: 'React',       color: '#61dafb' },
-    { name: 'Node.js',     color: '#68a063' },
-    { name: 'Spring Boot', color: '#6db33f' },
-    { name: 'PostgreSQL',  color: '#336791' },
-    { name: 'MongoDB',     color: '#47a248' },
-    { name: 'MySQL',       color: '#3178c6' },
-    { name: 'Redis',       color: '#dc382d' },
-    { name: 'Docker',      color: '#2496ed' },
+    { name: 'Docker',       color: '#61dafb' },
+    { name: 'Kubernetes',     color: '#68a063' },
+    { name: 'AWS', color: '#6db33f' },
+    { name: 'GCP',  color: '#336791' },
+    { name: 'AZURE',     color: '#47a248' },
+    { name: 'Terraform',       color: '#3178c6' },
+    { name: 'Python',       color: '#dc382d' },
+    { name: 'Jenkins',      color: '#2496ed' },
+    { name: 'GitHub Actions', color: '#2088ff' },
+    { name: 'Firebase',      color: '#f3e100' },
   ];
 
   const delay = (n) => ({ transitionDelay: `${n}ms` });
@@ -285,7 +287,7 @@ export default function Hero() {
             {/* Name */}
             <div className={`transition-all duration-700 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`} style={delay(210)}>
               <h1 className="font-black leading-[1.0] tracking-tight" style={{ fontSize: 'clamp(3.5rem, 8vw, 6.2rem)', color: textPrimary }}>
-                <span className="block">Kota</span>
+                <span className="block">Eswar</span>
                 <span className="block relative"
                   style={{ 
                     background: isDark
@@ -295,7 +297,7 @@ export default function Hero() {
                     WebkitTextFillColor: 'transparent', 
                     backgroundClip: 'text' 
                   }}>
-                  Thanvi
+                  Santhosh
                   <span className="absolute -bottom-2 left-0 h-[3px] rounded-full"
                     style={{ 
                       width: show ? '100%' : '0%', 
@@ -322,11 +324,11 @@ export default function Hero() {
             {/* Description */}
             <div className={`transition-all duration-700 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`} style={delay(440)}>
               <p className="text-base leading-[1.9] max-w-[500px]" style={{ color: textSecondary }}>
-                Crafting high-performance web applications with{' '}
-                <span style={{ color: accentColor, fontWeight: '500' }}>React</span>,{' '}
-                <span style={{ color: accentColorBlue, fontWeight: '500' }}>Node.js</span> &{' '}
-                <span style={{ color: accentColorAlt, fontWeight: '500' }}>Spring Boot</span>.
-                With 11 months of professional experience, I build pixel-perfect interfaces and robust backend systems that users love.
+                Automating infrastructure and deploying scalable applications with{' '}
+                <span style={{ color: accentColor, fontWeight: '500' }}>Docker</span>,{' '}
+                <span style={{ color: accentColorBlue, fontWeight: '500' }}>Kubernetes</span> &{' '}
+                <span style={{ color: accentColorAlt, fontWeight: '500' }}>CI/CD pipelines</span>.
+                With hands-on DevOps expertise, I build reliable infrastructure and streamline deployment workflows that teams love.
               </p>
             </div>
 
@@ -334,9 +336,9 @@ export default function Hero() {
             <div className={`flex flex-wrap gap-8 py-2 transition-all duration-700 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`} style={delay(540)}>
               {[
                 { v: '11', l: 'Months Exp.', c: accentColor },
-                { v: '4+',  l: 'Projects',    c: accentColorAlt },
-                { v: '5+', l: 'Tech Skills',  c: accentColorBlue },
-                { v: '1',   l: 'Publication',  c: '#10b981' },
+                { v: '3',  l: 'DevOps Projects',    c: accentColorAlt },
+                { v: '10+', l: 'Technologies',  c: accentColorBlue },
+                { v: '2',   l: 'Cloud Platforms',  c: '#10b981' },
               ].map(s => (
                 <div key={s.l} className="group cursor-default">
                   <div className="text-2xl font-black transition-all duration-300 group-hover:scale-110" style={{ color: s.c }}>{s.v}</div>
@@ -376,8 +378,8 @@ export default function Hero() {
                 }}>
                 <Mail size={15} /> Get in Touch
               </a>
-              <a href="/kotaThanvi Resume Updated(February) (1).pdf"
-                download="KotaThanvi_Resume.pdf"
+              <a href="/EswarSanthosh_Resume.txt"
+                download="EswarSanthosh_Resume.txt"
                 className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-xl font-bold text-sm border transition-all duration-300 hover:scale-105"
                 style={{ 
                   border: isDark ? '1px solid rgba(255,255,255,0.1)' : '1px solid rgba(0,0,0,0.1)',
@@ -391,9 +393,9 @@ export default function Hero() {
             {/* Social links */}
             <div className={`flex items-center gap-3 transition-all duration-700 ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`} style={delay(720)}>
               {[
-                { icon: Code,         href: 'https://github.com/Thanvi23',         label: 'GitHub' },
-                { icon: Share2,       href: 'https://linkedin.com/in/kota-thanvi', label: 'LinkedIn' },
-                { icon: Mail,         href: 'mailto:kotathanvi3@gmail.com',         label: 'Email' },
+                { icon: Code,         href: 'https://github.com/eswarsanthosh',    label: 'GitHub' },
+                { icon: Share2,       href: 'https://linkedin.com/in/eswar-santhosh', label: 'LinkedIn' },
+                { icon: Mail,         href: 'mailto:eswarsanthoshb@gmail.com',       label: 'Email' },
                 { icon: ExternalLink, href: '#',                                    label: 'Portfolio' },
               ].map(({ icon: Icon, href, label }) => (
                 <a key={label} href={href}
@@ -551,7 +553,7 @@ export default function Hero() {
 
                     {/* Name & title */}
                     <div className="text-center">
-                      <h3 className="text-xl font-black tracking-tight" style={{ color: textPrimary }}>Kota Thanvi</h3>
+                      <h3 className="text-xl font-black tracking-tight" style={{ color: textPrimary }}>Eswar Santhosh</h3>
                       <p className="text-sm font-bold mt-0.5"
                         style={{ 
                           background: isDark
@@ -561,7 +563,7 @@ export default function Hero() {
                           WebkitTextFillColor: 'transparent', 
                           backgroundClip: 'text' 
                         }}>
-                        Full-Stack Developer
+                        Devops Engineer
                       </p>
                       <p className="text-[11px] mt-1" style={{ color: textMuted }}>Hyderabad, India · Open to Work</p>
                     </div>
@@ -601,8 +603,8 @@ export default function Hero() {
                     <div className="grid grid-cols-3 gap-2">
                       {[
                         { v: '11mon', l: 'Experience', c: '#06b6d4' },
-                        { v: '4+',   l: 'Projects',   c: '#8b5cf6' },
-                        { v: '5+',  l: 'Skills',      c: '#10b981' },
+                        { v: '3',   l: 'Projects',   c: '#8b5cf6' },
+                        { v: '10+',  l: 'Skills',      c: '#10b981' },
                       ].map(s => (
                         <div key={s.l}
                           className="text-center p-2.5 rounded-xl cursor-default transition-all duration-300 hover:scale-105"
